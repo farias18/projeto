@@ -42,7 +42,7 @@ function App() {
   return (
     <Geral>
       <p className="container">
-        <h1 className="title display-3 text-center mb-5 title display-3  mb-5" style={{ fontSize: 56 }}>ENVIO DE LEMBRETE</h1>
+        <h1 className="title display-3 text-center mb-5 title display-3  mb-5" style={{ fontSize: 56 }}>ENVIE SEU LEMBRETE</h1>
 
         <form className="form" onSubmit={sendEmail}>
           <input style={{
