@@ -10,8 +10,8 @@ import { mask } from 'remask'
 const form = () => {
 
   const { push } = useRouter()
-  const { register, handleSubmit, setValue } = useForm()
-  const [usuarios, setUsuarios] = useState([]);
+  const { register, handleSubmit, setValue, formState: { errors } } = useForm()
+  const [usuarios, setUsuarios ] = useState([]);
   const [tipos, setTipos] = useState([]);
 
   function handleChange(event) {

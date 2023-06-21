@@ -10,7 +10,7 @@ import { AiOutlineCheck } from 'react-icons/ai'
 const form = () => {
 
   const { push } = useRouter()
-  const { register, handleSubmit } = useForm()
+  const { register, handleSubmi, formState: { errors } } = useForm()
 
   function salvar(dados) {
     const tipos = JSON.parse(window.localStorage.getItem('tipos')) || []
